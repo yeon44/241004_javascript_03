@@ -26,3 +26,38 @@
 // } else {
 //   document.write(ex_02 + " 학생은 F입니다");
 // }
+
+let ex_03 = 1;
+while (ex_03 <= 12) {
+  document.write(ex_03, ",");
+  ex_03++;
+}
+
+document.write("<hr>");
+
+let ex_04 = 1;
+while (ex_04 <= 12) {
+  document.write(
+    `<img src="./img/instagram-${ex_04}.jpg" style="width: 120px;" >`
+  );
+  ex_04++;
+}
+
+document.write("<hr>");
+
+// for (let ex_05 = 0; ex_05 <= 8; ex_05++) {
+//   if (ex_05 % 2 == 0) {
+//     document.write(`<img src="./img/img${ex_05}.jpg" style = "width:120px;">`);
+//   }
+// }
+
+let ex_05 = 0;
+
+while (ex_05 <= 8) {
+  if (ex_05 % 2 == 0) {
+    document.write(`<img src="./img/img${ex_05}.jpg" style = "width:120px;">`);
+  }
+  ex_05++;
+}
+
+//계속 뒤에 다른 빈 이미지가 떠요..
